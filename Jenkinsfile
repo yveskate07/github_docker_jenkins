@@ -14,7 +14,7 @@ pipeline {
         // Étape 1 : Récupération du code source depuis GitHub
         stage("Checkout") {
             steps {
-                git branch: 'master', url: 'https://github.com/yveskate07/github_docker_jenkins.git'
+                git branch: 'main', url: 'https://github.com/yveskate07/github_docker_jenkins.git'
             }
         }
         // Étape 2 : Exécution des tests
